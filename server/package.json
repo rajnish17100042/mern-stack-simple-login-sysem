@@ -1,0 +1,33 @@
+{
+  "name": "mern-stack-project1",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rajnish17100@bitbucket.org/rajnish17100/mern-stack.git"
+  },
+  "author": "Rajnish Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/rajnish17100/mern-stack/issues"
+  },
+  "homepage": "https://bitbucket.org/rajnish17100/mern-stack#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+   }
+}
